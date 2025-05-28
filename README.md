@@ -33,6 +33,7 @@ This project involves generating synthetic bond data and performing portfolio an
 - `bond_generator_test.py` – basic tests for dataset generation
 - `synthetic_bond_data.xlsx` – generated bond data
 - `bond_portfolio.py` – performs analysis and visualization
+- `bond_portfolio_test.py` – basic tests for portfolio analysis
 - `bond_portfolio_summary.xlsx` – summary of results
 
 ## How to Run Tests
