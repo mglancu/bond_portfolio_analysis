@@ -1,5 +1,7 @@
 # Bond Portfolio Analysis
 
+![Tests](https://github.com/mglancu/bond_portfolio_analysis/actions/workflows/python-app.yml/badge.svg)
+
 This project involves generating synthetic bond data and performing portfolio analysis using Python.
 
 ## Overview
@@ -20,10 +22,19 @@ This project involves generating synthetic bond data and performing portfolio an
 
 - Results are saved to Excel for further review.
 
+- Basic testing is implemented in `bond_generator_test.py` to verify dataset generation.
+
+- Continuous Integration is enabled via **GitHub Actions** to automatically run tests on each push or pull request.
+
 ## Files
 
 - `bond_generator.py` – generates the synthetic dataset
+- `bond_generator_test.py` – basic tests for dataset generation
 - `synthetic_bond_data.xlsx` – generated bond data
 - `bond_portfolio.py` – performs analysis and visualization
 - `bond_portfolio_summary.xlsx` – summary of results
 
+## How to Run Tests
+
+```bash
+pytest bond_generator_test.py
