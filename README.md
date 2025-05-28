@@ -22,7 +22,8 @@ This project involves generating synthetic bond data and performing portfolio an
 
 - Results are saved to Excel for further review.
 
-- Basic testing is implemented in `bond_generator_test.py` to verify dataset generation.
+- Basic testing is implemented in `bond_generator_test.py` to verify dataset generation,  
+  and in `bond_portfolio_test.py` to validate portfolio analysis logic.
 
 - Continuous Integration is enabled via **GitHub Actions** to automatically run tests on each push or pull request.
 
@@ -38,3 +39,4 @@ This project involves generating synthetic bond data and performing portfolio an
 
 ```bash
 pytest bond_generator_test.py
+pytest bond_portfolio_test.py
